@@ -53,8 +53,8 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     
    //世界
     G4double worldSize = 1.0 * m;
-    G4Box* solidWorld = new G4Box("World", worldSize/2, worldSize/2, worldSize/2);
-    G4LogicalVolume* logicWorld = new G4LogicalVolume(solidWorld, mat_Air, "World");
+    G4Box* solidWorld = new G4Box("LogicWorld", worldSize/2, worldSize/2, worldSize/2);
+    G4LogicalVolume* logicWorld = new G4LogicalVolume(solidWorld, mat_Air, "LogicWorld");
     G4VPhysicalVolume* physWorld = new G4PVPlacement(0, G4ThreeVector(), logicWorld, "World", 0, false, 0, true);
 
    //铝壳
@@ -69,7 +69,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     G4ThreeVector posCap(0,0,0);
     new G4PVPlacement(0, posCap, logicCapTube, "CapTube_PV", logicWorld, false, 0, true);
     
-    G4double zWin = capTotalHeight/2.0 + L5_WinThick/2.0; // 盖在管子上
+    G4double zWin = capTotalHeight/2.0 + L5_WinThick/2.0; 
     new G4PVPlacement(0, G4ThreeVector(0,0,zWin), logicCapWin, "CapWin_PV", logicWorld, false, 0, true);
 
    //内部环境
