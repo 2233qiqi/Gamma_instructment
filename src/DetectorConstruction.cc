@@ -113,26 +113,26 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
 
 
     //可视化
-     G4VisAttributes* visWorld = new G4VisAttributes(G4Color(1.0, 1.0, 1.0)); 
-     visWorld->SetForceWireframe(true); 
-     logicWorld->SetVisAttributes(visWorld);
+    G4VisAttributes* visWorld = new G4VisAttributes(G4Color(1.0, 1.0, 1.0)); 
+    visWorld->SetForceWireframe(true); 
+    logicWorld->SetVisAttributes(visWorld);
 
-     logicVac->SetVisAttributes(G4VisAttributes::GetInvisible());
+    logicVac->SetVisAttributes(G4VisAttributes::GetInvisible());
 
-     G4VisAttributes* visGe = new G4VisAttributes(G4Color(1.0, 0.0, 0.0, 1.0)); 
-     visGe->SetForceSolid(true); // 强制显示为实体
-     fLogicGeCrystal->SetVisAttributes(visGe);
+    G4VisAttributes* visGe = new G4VisAttributes(G4Color(1.0, 0.0, 0.0, 1.0)); 
+    visGe->SetForceSolid(true); // 强制显示为实体
+    fLogicGeCrystal->SetVisAttributes(visGe);
 
-     G4VisAttributes* visAlCap = new G4VisAttributes(G4Color(0.8, 0.8, 0.8, 0.3)); 
-     visAlCap->SetForceSolid(true); // 这里用实体+透明，比线框(Wireframe)好看
-     logicCapTube->SetVisAttributes(visAlCap);
-     logicCapWin->SetVisAttributes(visAlCap);
+    G4VisAttributes* visAlCap = new G4VisAttributes(G4Color(0.8, 0.8, 0.8, 0.3)); 
+    visAlCap->SetForceSolid(true); // 这里用实体+透明，比线框(Wireframe)好看
+    logicCapTube->SetVisAttributes(visAlCap);
+    logicCapWin->SetVisAttributes(visAlCap);
 
-     G4VisAttributes* visCup = new G4VisAttributes(G4Color(1.0, 0.8, 0.0, 1.0));
-     visCup->SetForceSolid(true);
-     logicCup->SetVisAttributes(visCup);
+    G4VisAttributes* visCup = new G4VisAttributes(G4Color(1.0, 0.8, 0.0, 1.0));
+    visCup->SetForceSolid(true);
+    logicCup->SetVisAttributes(visCup);
 
-     return physWorld;
+    return physWorld;
 
 
 }   
