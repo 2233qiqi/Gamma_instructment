@@ -8,6 +8,9 @@ project(B1)
 # Find Geant4 package, activating all available UI and Vis drivers by default
 # See the documentation for a guide on how to enable/disable specific components
 #
+set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
+set(THREADS_PREFER_PTHREAD_FLAG TRUE)
+find_package(Threads REQUIRED)
 find_package(Geant4 REQUIRED ui_all vis_all )
 find_package(ROOT REQUIRED COMPONENTS Core RIO)
 find_package(VTK REQUIRED COMPONENTS GUISupportQt RenderingOpenGL2)

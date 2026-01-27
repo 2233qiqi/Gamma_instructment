@@ -30,14 +30,14 @@ void SteppingAction::UserSteppingAction(const G4Step* step)
           = static_cast<const DetectorConstruction*>
             (G4RunManager::GetRunManager()->GetUserDetectorConstruction());
    
-        if (volume->GetName() == "GeCrystal_LV") {
+        if (volume->GetName() == "Ge_LV") {
              fScoringVolume = volume;
         }
         
      }
 
- 
-    if (volume->GetName() != "GeCrystal_LV") return; 
+
+    if (volume->GetName() != "Ge_LV") return; 
 
     G4double edep = step->GetTotalEnergyDeposit();
 
