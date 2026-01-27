@@ -73,113 +73,113 @@ CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cc.o: /home/qiqi/geant4/Gamma_instructment/main.cc
 CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cc.o -MF CMakeFiles/main.dir/main.cc.o.d -o CMakeFiles/main.dir/main.cc.o -c /home/qiqi/geant4/Gamma_instructment/main.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cc.o -MF CMakeFiles/main.dir/main.cc.o.d -o CMakeFiles/main.dir/main.cc.o -c /home/qiqi/geant4/Gamma_instructment/main.cc
 
 CMakeFiles/main.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/main.cc > CMakeFiles/main.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/main.cc > CMakeFiles/main.dir/main.cc.i
 
 CMakeFiles/main.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/main.cc -o CMakeFiles/main.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/main.cc -o CMakeFiles/main.dir/main.cc.s
 
 CMakeFiles/main.dir/src/ActionInitialization.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ActionInitialization.cc.o: /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc
 CMakeFiles/main.dir/src/ActionInitialization.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/ActionInitialization.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ActionInitialization.cc.o -MF CMakeFiles/main.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/main.dir/src/ActionInitialization.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ActionInitialization.cc.o -MF CMakeFiles/main.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/main.dir/src/ActionInitialization.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc
 
 CMakeFiles/main.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ActionInitialization.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc > CMakeFiles/main.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc > CMakeFiles/main.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/main.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ActionInitialization.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc -o CMakeFiles/main.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc -o CMakeFiles/main.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/main.dir/src/DetectorConstruction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/DetectorConstruction.cc.o: /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc
 CMakeFiles/main.dir/src/DetectorConstruction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/main.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/main.dir/src/DetectorConstruction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/main.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/main.dir/src/DetectorConstruction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc
 
 CMakeFiles/main.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc > CMakeFiles/main.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc > CMakeFiles/main.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/main.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc -o CMakeFiles/main.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc -o CMakeFiles/main.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/main.dir/src/EventAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/EventAction.cc.o: /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc
 CMakeFiles/main.dir/src/EventAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/EventAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/EventAction.cc.o -MF CMakeFiles/main.dir/src/EventAction.cc.o.d -o CMakeFiles/main.dir/src/EventAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/EventAction.cc.o -MF CMakeFiles/main.dir/src/EventAction.cc.o.d -o CMakeFiles/main.dir/src/EventAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc
 
 CMakeFiles/main.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/EventAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc > CMakeFiles/main.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc > CMakeFiles/main.dir/src/EventAction.cc.i
 
 CMakeFiles/main.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/EventAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc -o CMakeFiles/main.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc -o CMakeFiles/main.dir/src/EventAction.cc.s
 
 CMakeFiles/main.dir/src/PhysicsList.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/PhysicsList.cc.o: /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc
 CMakeFiles/main.dir/src/PhysicsList.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PhysicsList.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PhysicsList.cc.o -MF CMakeFiles/main.dir/src/PhysicsList.cc.o.d -o CMakeFiles/main.dir/src/PhysicsList.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PhysicsList.cc.o -MF CMakeFiles/main.dir/src/PhysicsList.cc.o.d -o CMakeFiles/main.dir/src/PhysicsList.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc
 
 CMakeFiles/main.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PhysicsList.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc > CMakeFiles/main.dir/src/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc > CMakeFiles/main.dir/src/PhysicsList.cc.i
 
 CMakeFiles/main.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PhysicsList.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc -o CMakeFiles/main.dir/src/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc -o CMakeFiles/main.dir/src/PhysicsList.cc.s
 
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc > CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc > CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/main.dir/src/RunAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/RunAction.cc.o: /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc
 CMakeFiles/main.dir/src/RunAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/RunAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RunAction.cc.o -MF CMakeFiles/main.dir/src/RunAction.cc.o.d -o CMakeFiles/main.dir/src/RunAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RunAction.cc.o -MF CMakeFiles/main.dir/src/RunAction.cc.o.d -o CMakeFiles/main.dir/src/RunAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc
 
 CMakeFiles/main.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/RunAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc > CMakeFiles/main.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc > CMakeFiles/main.dir/src/RunAction.cc.i
 
 CMakeFiles/main.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/RunAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc -o CMakeFiles/main.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc -o CMakeFiles/main.dir/src/RunAction.cc.s
 
 CMakeFiles/main.dir/src/SteppingAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/SteppingAction.cc.o: /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc
 CMakeFiles/main.dir/src/SteppingAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/SteppingAction.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SteppingAction.cc.o -MF CMakeFiles/main.dir/src/SteppingAction.cc.o.d -o CMakeFiles/main.dir/src/SteppingAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SteppingAction.cc.o -MF CMakeFiles/main.dir/src/SteppingAction.cc.o.d -o CMakeFiles/main.dir/src/SteppingAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc
 
 CMakeFiles/main.dir/src/SteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/SteppingAction.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc > CMakeFiles/main.dir/src/SteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc > CMakeFiles/main.dir/src/SteppingAction.cc.i
 
 CMakeFiles/main.dir/src/SteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/SteppingAction.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc -o CMakeFiles/main.dir/src/SteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc -o CMakeFiles/main.dir/src/SteppingAction.cc.s
 
 # Object files for target main
 main_OBJECTS = \

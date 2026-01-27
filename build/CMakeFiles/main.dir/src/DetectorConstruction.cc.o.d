@@ -498,8 +498,8 @@ CMakeFiles/main.dir/src/DetectorConstruction.cc.o: \
  /usr/local/include/Geant4/G4Visible.icc \
  /usr/local/include/Geant4/G4Box.icc /usr/local/include/Geant4/G4Tubs.hh \
  /usr/local/include/Geant4/G4Tubs.icc \
- /usr/local/include/Geant4/G4Torus.hh \
- /usr/local/include/Geant4/G4Torus.icc \
+ /usr/local/include/Geant4/G4Sphere.hh \
+ /usr/local/include/Geant4/G4Sphere.icc \
  /usr/local/include/Geant4/G4SubtractionSolid.hh \
  /usr/local/include/Geant4/G4BooleanSolid.hh \
  /usr/local/include/Geant4/G4DisplacedSolid.hh \
@@ -508,9 +508,9 @@ CMakeFiles/main.dir/src/DetectorConstruction.cc.o: \
  /usr/local/include/Geant4/G4LogicalVolume.hh \
  /usr/local/include/Geant4/G4PVPlacement.hh \
  /usr/local/include/Geant4/G4SystemOfUnits.hh \
- /usr/local/include/Geant4/G4UnionSolid.hh \
  /usr/local/include/Geant4/G4VisAttributes.hh \
  /usr/local/include/Geant4/graphics_reps_defs.hh \
  /usr/local/include/Geant4/G4Colour.hh \
  /usr/local/include/Geant4/G4Color.hh \
- /usr/local/include/Geant4/G4VisAttributes.icc
+ /usr/local/include/Geant4/G4VisAttributes.icc \
+ /usr/local/include/Geant4/G4Colour.hh
