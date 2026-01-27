@@ -25,9 +25,13 @@ void EventAction :: EndOfEventAction(const G4Event *event)
            auto analysisManager = G4AnalysisManager::Instance();
            analysisManager->FillH1(0, fTotalEdep);
         }
+    
+
+    fTotalEdep = 0.;
 }
 
 void EventAction::AddEdep(G4double edep)
 {
     fTotalEdep += edep;
 }
+

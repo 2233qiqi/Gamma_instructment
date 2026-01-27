@@ -17,6 +17,7 @@ public:
 
 private:
     G4double fTotalEdep;
+
 };
 
 #endif 
