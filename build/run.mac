@@ -1,10 +1,10 @@
 /run/initialize
 
+/gps/particle gamma
+
 /gps/pos/type Point
-/gps/pos/centre 0 0 180.5 mm
+/gps/pos/centre 0 0 100 mm
+/gps/direction 0 0 -1
+/gps/energy 662 keV
 
-/gps/ang/type iso
-
-
-/gps/ene/type Mono
-/gps/energy 59.54 keV
+/run/beamOn 1000000
