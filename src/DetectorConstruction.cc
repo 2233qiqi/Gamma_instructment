@@ -91,8 +91,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
 
     G4double zHolePos = -L2_GeLen/2.0 + Hole_Depth/2.0 - 0.01*mm; 
 
-    G4SubtractionSolid* solidGeFinal = new G4SubtractionSolid("Ge_Final", solidGeBullet, solidHole, 
-                                                              0, G4ThreeVector(0,0,zHolePos));
+    G4SubtractionSolid* solidGeFinal = new G4SubtractionSolid("Ge_Final", solidGeBullet, solidHole,  0, G4ThreeVector(0,0,zHolePos));
 
     fLogicGeCrystal = new G4LogicalVolume(solidGeFinal, mat_Ge, "GeCrystal_LV");
 
@@ -120,11 +119,11 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     logicVac->SetVisAttributes(G4VisAttributes::GetInvisible());
 
     G4VisAttributes* visGe = new G4VisAttributes(G4Color(1.0, 0.0, 0.0, 1.0)); 
-    visGe->SetForceSolid(true); // 强制显示为实体
+    visGe->SetForceSolid(true); 
     fLogicGeCrystal->SetVisAttributes(visGe);
 
     G4VisAttributes* visAlCap = new G4VisAttributes(G4Color(0.8, 0.8, 0.8, 0.3)); 
-    visAlCap->SetForceSolid(true); // 这里用实体+透明，比线框(Wireframe)好看
+    visAlCap->SetForceSolid(true); 
     logicCapTube->SetVisAttributes(visAlCap);
     logicCapWin->SetVisAttributes(visAlCap);
 

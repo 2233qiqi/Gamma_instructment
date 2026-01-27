@@ -1,53 +1,9 @@
-# ==========================================
-# 修正后的 vis.mac
-# ==========================================
-
-# 1. 初始化 (防止 main.cc 里没初始化)
 /run/initialize
 
-# 2. 打开驱动
-# 建议用 OGL 而不是 OGLIQt，让 Geant4 自动选择当前系统支持最好的
-# 在 WSL 下，通常回落到 X11 或 Qt
-/vis/open OGL 600x600-0+0
-
-# 3. 关闭自动刷新 (提高加载速度)
-/vis/viewer/set/autoRefresh false
-/vis/verbose errors
-
-# 4. 绘制几何体
+/vis/open OGL
 /vis/drawVolume
 
-# 5. 【关键】设置视角和渲染风格
-# 默认设为线框，避免一开始就是黑乎乎的一坨
-/vis/viewer/set/style wireframe
-/vis/viewer/set/auxiliaryEdge true
-/vis/viewer/set/lineSegmentsPerCircle 100
+/vis/viewer/set/viewpointThetaPhi 90 180
+/vis/viewer/zoom 1.2
 
-# 6. 【关键】处理世界体 (World)
-# 将 LogicWorld 设为【不可见】，或者强制设为【线框】
-# 这里我们选择设为不可见，这样才能看到里面的探测器
-/vis/geometry/set/visibility LogicWorld 0 false
-
-# 7. 设置观察角度
-/vis/viewer/set/viewpointThetaPhi 90. 180.
-/vis/viewer/zoom 1.4
-
-# 8. 轨迹设置 (这是你之前的代码，保留)
-/vis/scene/add/trajectories smooth
-/vis/modeling/trajectories/create/drawByCharge
-/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
-/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
-
-# 9. 辅助信息
-/vis/scene/add/axes 0 0 0 10 cm
-/vis/scene/add/scale 5 cm
-/vis/scene/add/date
-/vis/set/textColour green
-/vis/scene/add/text2D 0.9 -.9 12 ! ! HPGe_Detector
-
-# 10. 最后开启刷新
-/vis/viewer/set/autoRefresh true
-/vis/verbose warnings
-
-# 打印提示
-/control/echo Visualization Ready!
+/control/echo VIS OK
