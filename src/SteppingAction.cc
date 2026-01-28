@@ -20,17 +20,17 @@ SteppingAction :: ~SteppingAction()
 }
 
 void SteppingAction::UserSteppingAction(const G4Step* step)
-{
-    
-  G4LogicalVolume* volume = step->GetPreStepPoint()->GetTouchableHandle()
-                              ->GetVolume()->GetLogicalVolume();
+{  
+  G4LogicalVolume* volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume()->GetLogicalVolume();
 
-    if (volume->GetName() == "Ge_LV") {
+    if (volume->GetName() == "GeActive_LV") {
         G4double edep = step->GetTotalEnergyDeposit();
 
         if (edep > 0.) {
             fEventAction->AddEdep(edep);
         }
     }
-  }
+
+ 
+}
 

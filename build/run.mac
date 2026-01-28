@@ -3,9 +3,9 @@
 /gps/particle gamma
 
 /gps/pos/type Point
-/gps/pos/centre 0 0 180.5 mm
-/gps/direction 0 0 -1
-/gps/energy 0.5954 MeV
+/gps/pos/centre 0 0 230.5 mm
+#/gps/direction 0 0 -1
+/gps/energy 0.05954 MeV
 
 /gps/ang/type iso
 
