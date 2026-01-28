@@ -1,0 +1,9 @@
+/run/initialize
+
+/vis/open OGL
+/vis/drawVolume
+
+/vis/viewer/set/viewpointThetaPhi 90 180
+/vis/viewer/zoom 1.2
+
+/control/echo VIS OK
