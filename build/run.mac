@@ -5,7 +5,7 @@
 /gps/pos/type Point
 /gps/pos/centre 0 0 230.5 mm
 #/gps/direction 0 0 -1
-/gps/energy 0.05954 MeV
+/gps/energy 0.081 MeV
 
 /gps/ang/type iso
 
