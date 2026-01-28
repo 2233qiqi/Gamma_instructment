@@ -10,7 +10,7 @@ RunAction::RunAction() : G4UserRunAction()
 
     analysisManager->SetDefaultFileType("root");
     analysisManager->SetFileName("output"); 
-    analysisManager->CreateH1("E_dep", "Energy Deposition", 3000, 0.,1000.0*keV);
+    analysisManager->CreateH1("E_dep", "Energy Deposition", 3000, 0.,1500.0*keV);
 }
 
 RunAction::~RunAction()
