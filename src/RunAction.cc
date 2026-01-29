@@ -9,7 +9,7 @@ RunAction::RunAction() : G4UserRunAction()
     
 
     analysisManager->SetDefaultFileType("root");
-    analysisManager->SetFileName("output"); 
+    analysisManager->SetFileName("EventData"); 
     analysisManager->CreateH1("E_dep", "Energy Deposition", 3000, 0.,1500.0*keV);
 }
 
