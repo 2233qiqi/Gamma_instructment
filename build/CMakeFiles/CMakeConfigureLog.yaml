@@ -247,3 +247,181 @@ events:
         gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-iYb2ev'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working CXX compiler: /mnt/d/latex/C++_Mingw/bin/g++.exe"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4071b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4071b.dir/build.make CMakeFiles/cmTC_4071b.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8'
+        Building CXX object CMakeFiles/cmTC_4071b.dir/testCXXCompiler.cxx.o
+        /mnt/d/latex/C++_Mingw/bin/g++.exe    -o CMakeFiles/cmTC_4071b.dir/testCXXCompiler.cxx.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8/testCXXCompiler.cxx
+        Linking CXX executable cmTC_4071b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4071b.dir/link.txt --verbose=1
+        /mnt/d/latex/C++_Mingw/bin/g++.exe CMakeFiles/cmTC_4071b.dir/testCXXCompiler.cxx.o -o cmTC_4071b 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-5untB8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7bb60/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7bb60.dir/build.make CMakeFiles/cmTC_7bb60.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ'
+        Building C object CMakeFiles/cmTC_7bb60.dir/src.c.o
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_7bb60.dir/src.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ/src.c
+        /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ/src.c:1:21: fatal error: pthread.h: No such file or directory
+         #include <pthread.h>
+                             ^
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_7bb60.dir/build.make:78: CMakeFiles/cmTC_7bb60.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-vVAOcQ'
+        gmake: *** [Makefile:127: cmTC_7bb60/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_562ec/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_562ec.dir/build.make CMakeFiles/cmTC_562ec.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC'
+        Building C object CMakeFiles/cmTC_562ec.dir/CheckForPthreads.c.o
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe    -o CMakeFiles/cmTC_562ec.dir/CheckForPthreads.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC/CheckForPthreads.c
+        /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC/CheckForPthreads.c:1:21: fatal error: pthread.h: No such file or directory
+         #include <pthread.h>
+                             ^
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_562ec.dir/build.make:78: CMakeFiles/cmTC_562ec.dir/CheckForPthreads.c.o] Error 1
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BueHBC'
+        gmake: *** [Makefile:127: cmTC_562ec/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19147/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_19147.dir/build.make CMakeFiles/cmTC_19147.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w'
+        Building C object CMakeFiles/cmTC_19147.dir/CheckFunctionExists.c.o
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_19147.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w/CheckFunctionExists.c
+        Linking C executable cmTC_19147
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19147.dir/link.txt --verbose=1
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_19147.dir/CheckFunctionExists.c.o -o cmTC_19147  -lpthreads 
+        d:/latex/c++_mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthreads
+        collect2.exe: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_19147.dir/build.make:99: cmTC_19147] Error 1
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-eAFQ8w'
+        gmake: *** [Makefile:127: cmTC_19147/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_da90c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_da90c.dir/build.make CMakeFiles/cmTC_da90c.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K'
+        Building C object CMakeFiles/cmTC_da90c.dir/CheckFunctionExists.c.o
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_da90c.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K/CheckFunctionExists.c
+        Linking C executable cmTC_da90c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da90c.dir/link.txt --verbose=1
+        /mnt/d/latex/C++_Mingw/bin/gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_da90c.dir/CheckFunctionExists.c.o -o cmTC_da90c  -lpthread 
+        d:/latex/c++_mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot find -lpthread
+        collect2.exe: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_da90c.dir/build.make:99: cmTC_da90c] Error 1
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-CmwF8K'
+        gmake: *** [Makefile:127: cmTC_da90c/fast] Error 2
+        
+      exitCode: 2
+...
