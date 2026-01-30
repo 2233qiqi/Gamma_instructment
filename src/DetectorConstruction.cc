@@ -76,7 +76,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     new G4PVPlacement(nullptr, G4ThreeVector(0,0,crystalZ), logicGeDead, "GeDead_PV", logicVac, false, 0);
     new G4PVPlacement(nullptr, G4ThreeVector(0,0,0), logicGeActive, "GeActive_PV", logicGeDead, false, 0);
 
-    auto* visActive = new G4VisAttributes(G4Colour(0.0, 1.0, 0.0, 0.5));
+    auto* visActive = new G4VisAttributes(G4Colour(1.0, 0.0, 0.0, 0.5));
     visActive->SetForceSolid(true);
     logicGeActive->SetVisAttributes(visActive);
 
