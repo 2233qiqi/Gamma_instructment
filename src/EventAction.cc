@@ -26,7 +26,6 @@ void EventAction :: EndOfEventAction(const G4Event *event)
            analysisManager->FillH1(0, fTotalEdep);
         }
     
-
     fTotalEdep = 0.;
 }
 

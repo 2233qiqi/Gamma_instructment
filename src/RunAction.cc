@@ -6,7 +6,6 @@
 RunAction::RunAction() : G4UserRunAction()
 {
     auto analysisManager = G4AnalysisManager::Instance();
-    
 
     analysisManager->SetDefaultFileType("root");
     analysisManager->SetFileName("EventData"); 
