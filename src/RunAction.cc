@@ -25,10 +25,7 @@ void RunAction::BeginOfRunAction(const G4Run*)
 void RunAction::EndOfRunAction(const G4Run*)
 {
     auto analysisManager = G4AnalysisManager::Instance();
-    
- 
+
     analysisManager->Write();
     analysisManager->CloseFile();
-
-    
 }
