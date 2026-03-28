@@ -1,0 +1,1 @@
+/usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_11e2b.dir/test_mpi.c.o -o cmTC_11e2b  /usr/lib/x86_64-linux-gnu/libmpi.so 
