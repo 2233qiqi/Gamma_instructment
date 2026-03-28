@@ -1,3 +1,0 @@
-/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-prgPyG/CMakeFiles/cmTC_11e2b.dir
-/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-prgPyG/CMakeFiles/edit_cache.dir
-/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-prgPyG/CMakeFiles/rebuild_cache.dir
