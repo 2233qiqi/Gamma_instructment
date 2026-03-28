@@ -1,82 +1,44 @@
-#----------------------------------------------------------------------------
-# Setup the project
-#
-cmake_minimum_required(VERSION 3.16...3.27)
+cmake_minimum_required(VERSION 3.16)
+
+# Set compilers to Linux native
+set(CMAKE_C_COMPILER /usr/bin/gcc)
+set(CMAKE_CXX_COMPILER /usr/bin/g++)
+
 project(B1)
 
-#----------------------------------------------------------------------------
-# Find Geant4 package, activating all available UI and Vis drivers by default
-# See the documentation for a guide on how to enable/disable specific components
-#
-set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
-set(THREADS_PREFER_PTHREAD_FLAG TRUE)
+# Threads
+set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
-find_package(Geant4 REQUIRED ui_all vis_all )
-find_package(ROOT REQUIRED COMPONENTS Core RIO)
-find_package(VTK REQUIRED COMPONENTS GUISupportQt RenderingOpenGL2)
-find_package(Qt5 REQUIRED COMPONENTS Widgets)
+
+# Geant4
+find_package(Geant4 REQUIRED ui_all vis_all)
+
+# ROOT
+find_package(ROOT REQUIRED COMPONENTS Core RIO Hist Tree)
+
+# TBB
 find_package(TBB REQUIRED)
 
-#----------------------------------------------------------------------------
-set(ROOT_DIR "/home/qiqi/ROOT/root")
-set(ROOT_INCLUDE_DIRS "${ROOT_DIR}/include")
-set(ROOT_LIBRARIES 
-    -L"${ROOT_DIR}/lib"
-    -lCore -lImt -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad
-    -lROOTVecOps -lTree -lTreePlayer -lRint -lPostscript
-    -lMatrix -lPhysics -lMathCore -lThread -lMultiProc
-    -lROOTDataFrame
-    -Wl,-rpath,${ROOT_DIR}/lib
-    -pthread -lm -ldl -rdynamic
-)
-
-#----------------------------------------------------------------------------
-find_library(TBB_LIB NAMES libtbb.so.12 libtbb.so.2 REQUIRED)
-
-#----------------------------------------------------------------------------
-# Locate sources and headers for this project
-# NB: headers are included so they will show up in IDEs
-#
+# Sources
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
-#----------------------------------------------------------------------------
-# Add the executable, use our local headers, and link it to the Geant4 libraries
-#
+# Executable
 add_executable(main main.cc ${sources} ${headers})
 
-#----------------------------------------------------------------------------
+# Include
 target_include_directories(main PRIVATE
     include
     ${Geant4_INCLUDE_DIRS}
-    ${ROOT_INCLUDE_DIRS}
 )
 
-#----------------------------------------------------------------------------
+
 target_link_libraries(main PRIVATE
-    ${ROOT_LIBRARIES}
+    Threads::Threads
     ${Geant4_LIBRARIES}
-    ${TBB_LIB}
+    ROOT::Core
+    ROOT::RIO
+    ROOT::Hist
+    ROOT::Tree
+    TBB::tbb
 )
-
-#----------------------------------------------------------------------------
-# Copy all scripts to the build directory, i.e. the directory in which we
-# build B1. This is so that we can run the executable directly because it
-# relies on these scripts being in the current working directory.
-#
-#set(EXAMPLEB1_SCRIPTS
-# exampleB1.in
-# exampleB1.out
-# init_vis.mac
-#  run1.mac
-#run2.mac
-# vis.mac
-# )
-
-foreach(_script ${EXAMPLEB1_SCRIPTS})
-  configure_file(
-    ${PROJECT_SOURCE_DIR}/${_script}
-    ${PROJECT_BINARY_DIR}/${_script}
-    COPYONLY
-    )
-endforeach()
