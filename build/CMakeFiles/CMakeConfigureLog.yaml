@@ -1126,3 +1126,214 @@ events:
         gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-BVTn8k'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4155/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d4155.dir/build.make CMakeFiles/cmTC_d4155.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA'
+        Building C object CMakeFiles/cmTC_d4155.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_d4155.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA/CheckFunctionExists.c
+        Linking C executable cmTC_d4155
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4155.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_d4155.dir/CheckFunctionExists.c.o -o cmTC_d4155  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-XmeQjA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93041/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_93041.dir/build.make CMakeFiles/cmTC_93041.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E'
+        Building C object CMakeFiles/cmTC_93041.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_93041.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E/CheckFunctionExists.c
+        Linking C executable cmTC_93041
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93041.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_93041.dir/CheckFunctionExists.c.o -o cmTC_93041 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-9Kc22E'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4cea2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4cea2.dir/build.make CMakeFiles/cmTC_4cea2.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8'
+        Building C object CMakeFiles/cmTC_4cea2.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_4cea2.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8/CheckFunctionExists.c
+        Linking C executable cmTC_4cea2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cea2.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_4cea2.dir/CheckFunctionExists.c.o -o cmTC_4cea2 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-yRO5A8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c0c5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1c0c5.dir/build.make CMakeFiles/cmTC_1c0c5.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv'
+        Building C object CMakeFiles/cmTC_1c0c5.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_1c0c5.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv/CheckFunctionExists.c
+        Linking C executable cmTC_1c0c5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c0c5.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_1c0c5.dir/CheckFunctionExists.c.o -o cmTC_1c0c5 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-0OPZGv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10790/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_10790.dir/build.make CMakeFiles/cmTC_10790.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd'
+        Building C object CMakeFiles/cmTC_10790.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_10790.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd/CheckFunctionExists.c
+        Linking C executable cmTC_10790
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10790.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_10790.dir/CheckFunctionExists.c.o -o cmTC_10790 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-tVRwgd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/local/lib/cmake/Geant4/Geant4Config.cmake:422 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf"
+      binary: "/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f81f7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f81f7.dir/build.make CMakeFiles/cmTC_f81f7.dir/build
+        gmake[1]: Entering directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf'
+        Building C object CMakeFiles/cmTC_f81f7.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_f81f7.dir/CheckFunctionExists.c.o -c /home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf/CheckFunctionExists.c
+        Linking C executable cmTC_f81f7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f81f7.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_f81f7.dir/CheckFunctionExists.c.o -o cmTC_f81f7  -lICE 
+        gmake[1]: Leaving directory '/home/qiqi/geant4/Gamma_instructment/build/CMakeFiles/CMakeScratch/TryCompile-suWbyf'
+        
+      exitCode: 0
+...

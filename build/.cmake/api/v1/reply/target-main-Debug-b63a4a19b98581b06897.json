@@ -138,6 +138,9 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-g"
+				},
+				{
 					"backtrace" : 2,
 					"fragment" : "-fPIC"
 				}
@@ -190,15 +193,15 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
-				},
-				{
-					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				},
 				{
 					"backtrace" : 2,
 					"define" : "ROOT_SUPPORT_CLAD"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "TBB_USE_DEBUG"
 				}
 			],
 			"includes" : 
@@ -262,6 +265,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "",
 				"role" : "flags"

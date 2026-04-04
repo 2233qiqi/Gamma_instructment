@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/main.cc.o -c /home/qiqi/geant4/Gamma_instructment/main.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/main.cc",
+  "output": "CMakeFiles/main.dir/main.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/ActionInitialization.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/ActionInitialization.cc",
+  "output": "CMakeFiles/main.dir/src/ActionInitialization.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/DetectorConstruction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/DetectorConstruction.cc",
+  "output": "CMakeFiles/main.dir/src/DetectorConstruction.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/EventAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/EventAction.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/EventAction.cc",
+  "output": "CMakeFiles/main.dir/src/EventAction.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/PhysicsList.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/PhysicsList.cc",
+  "output": "CMakeFiles/main.dir/src/PhysicsList.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/PrimaryGeneratorAction.cc",
+  "output": "CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/RunAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/RunAction.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/RunAction.cc",
+  "output": "CMakeFiles/main.dir/src/RunAction.cc.o"
+},
+{
+  "directory": "/home/qiqi/geant4/Gamma_instructment/build",
+  "command": "/usr/bin/g++ -DG4LIB_BUILD_DLL -DG4UI_USE_QT -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4VIS_USE_TOOLSSG_QT_GLES -DG4VIS_USE_TOOLSSG_QT_ZB -DG4VIS_USE_TOOLSSG_X11_GLES -DG4VIS_USE_TOOLSSG_X11_ZB -DPTL_BUILD_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROOT_SUPPORT_CLAD -DTBB_USE_DEBUG -I/home/qiqi/geant4/Gamma_instructment/include -isystem /usr/local/include/Geant4 -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /home/qiqi/ROOT/root/include -g -fPIC -o CMakeFiles/main.dir/src/SteppingAction.cc.o -c /home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc",
+  "file": "/home/qiqi/geant4/Gamma_instructment/src/SteppingAction.cc",
+  "output": "CMakeFiles/main.dir/src/SteppingAction.cc.o"
+}
+]
